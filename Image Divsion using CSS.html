@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Properties</title>
+    <style>
+        fieldset{
+            border: 6px  solid black;
+        }
+       .parent
+        {
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/815/067/small/distressed-and-dirty-red-and-black-background-horror-background-generative-ai-photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }  
+        .child{                                                                                                                                                        
+            height: 380px;
+            width: 300px;
+            border: 5px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        #child1{
+            background-image:url("Conjuring.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child2{
+            background-image:url("https://static.wikia.nocookie.net/netflix/images/5/53/The_Silence.jpg/revision/latest?cb=20200810082905");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center; 
+         }
+         #child3{
+            background-image:url("https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child4{
+            background-image:url("https://upload.wikimedia.org/wikipedia/en/b/bf/The_Witch_poster.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child5{
+            background-image:url("https://images.moviesanywhere.com/6a9ffb577d7d5438cf277ccb67d09d7b/81cd5e88-9b02-4187-b27e-4b2a2c68f3c0.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child6{
+            background-image:url("https://m.media-amazon.com/images/M/MV5BMGQzYzFkMDYtYTNmZi00MDQ0LWFjZjItZjE3NGJjNjllY2UxXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child7{
+            background-image:url("data:image/jpeg;base64,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");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+         #child8{
+            background-image:url("https://resizing.flixster.com/KTTKN2blKnp2wgx8FE0tPQwOya4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkyODViNTc1LWUzN2UtNDcxYS1iMWQ3LTBkNmI4YTQ0ZjhlMy53ZWJw");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;   
+         }
+    </style>
+</head>
+
+<body>  
+    <center>
+        <h1 style="color: red; background-color: black;">Horror Movie List</h1>
+    </center>
+ <form>
+    <fieldset>     
+    <div class="parent">
+        <a href="https://en.wikipedia.org/wiki/The_Conjuring" target="_blank"><div class="child" id="child1" ></div></a>
+        <a href="https://en.wikipedia.org/wiki/The_Silence_(2019_film)" target="_blank"><div class="child" id="child2"></div></a>
+        <a href="https://en.wikipedia.org/wiki/Evil_Dead_Rise" target="_blank"><div class="child" id="child3"></div></a>
+        <a href="https://en.wikipedia.org/wiki/The_Witch_(2015_film)" target="_blank"><div class="child" id="child4"></div></a>
+    </div>
+    <div class="parent">
+        <a href="https://en.wikipedia.org/wiki/Orphan_(2009_film)" target="_blank"><div class="child" id="child5"></div></a>
+        <a href="https://en.wikipedia.org/wiki/Bulbbul" target="_blank"><div class="child" id="child6"></div></a>
+        <a href="https://en.wikipedia.org/wiki/Wrong_Turn_(film_series)" target="_blank"><div class="child" id="child7"></div></a>
+        <a href="https://en.wikipedia.org/wiki/The_Nun_(2018_film)" target="_blank"><div class="child" id="child8"></div></a>
+    </div>
+</fieldset>
+</form>
+    
+</body>
+</html>
